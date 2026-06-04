@@ -10,7 +10,7 @@ export function SiteFooter() {
               <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-primary text-primary-foreground">
                 <GraduationCap className="h-5 w-5" />
               </span>
-              Edukonsul.
+              Consultindo
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Konsultan pendidikan terpercaya untuk membantu Anda memilih kampus, menyelesaikan tugas akhir, dan mewujudkan karier akademik impian.
@@ -31,14 +31,14 @@ export function SiteFooter() {
             <h3 className="text-sm font-semibold text-foreground">Kontak</h3>
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> +62 812 3456 7890</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> halo@edukonsul.id</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> halo@consultindo.id</li>
               <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Jakarta, Indonesia</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Edukonsul. Semua hak dilindungi.
+          © {new Date().getFullYear()} Consultindo. Semua hak dilindungi.
         </div>
       </div>
     </footer>

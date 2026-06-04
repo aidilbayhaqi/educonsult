@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Edukonsul — Konsultan Pendidikan Universitas #1 di Indonesia",
+  title: "Consultindo — Konsultasi Pendidikan dan Bisnis Profesional di Indonesia",
 
   description:
     "Konsultan pendidikan universitas terpercaya: rekomendasi kampus terbaik, jalur RPL, bimbingan skripsi, tesis, dan disertasi. 5.000+ alumni sukses. Konsultasi gratis hari ini.",
@@ -17,19 +17,19 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Edukonsul — Konsultan Pendidikan Universitas #1 di Indonesia",
+    title: "Consultindo — Konsultasi Pendidikan dan Bisnis Profesional di Indonesia",
 
     description:
       "Konsultan pendidikan universitas terpercaya: rekomendasi kampus terbaik, jalur RPL, bimbingan skripsi, tesis, dan disertasi.",
 
     type: "website",
     locale: "id_ID",
-    siteName: "Edukonsul",
+    siteName: "Consultindo",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Edukonsul",
+    title: "Consultindo",
     description:
       "Konsultan pendidikan universitas terpercaya di Indonesia.",
   },

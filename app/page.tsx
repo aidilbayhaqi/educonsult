@@ -43,8 +43,6 @@ export default function HomePage() {
       <main>
         <Hero />
         <Services />
-        <Process />
-        <FAQ />
         <CTA />
       </main>
 

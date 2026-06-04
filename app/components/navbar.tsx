@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { GraduationCap, Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#layanan", label: "Layanan" },
@@ -24,12 +25,16 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2 text-lg font-semibold tracking-tight text-black"
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
-            <GraduationCap className="h-5 w-5" />
-          </span>
+          <Image
+    src="/logo.png"
+    alt="Consultindo Logo"
+    width={42}
+    height={42}
+    priority
+    className="h-10 w-10 object-contain"
+  />
 
-          Edukonsul
-          <span className="text-blue-600">.</span>
+         Consultindo
         </Link>
 
         {/* Desktop Menu */}
